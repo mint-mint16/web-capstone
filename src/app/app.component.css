@@ -1,0 +1,10 @@
+pdf-viewer {
+    display: block;
+    height: 100vh;
+}
+
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}

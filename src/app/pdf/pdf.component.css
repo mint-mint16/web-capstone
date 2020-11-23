@@ -1,0 +1,5 @@
+@media print {
+    html, body, pdf-viewer {
+       display: none;  /* hide whole page */
+    }
+}
